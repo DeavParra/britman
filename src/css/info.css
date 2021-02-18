@@ -1,0 +1,47 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.main-header li a{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+  text-decoration: none;
+}
+.main-header{
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+  background-color: #24252A;
+}
+.main-header h1{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  font-size: 3em;
+  color: aliceblue;
+}
+.main-header__nav{
+  list-style: none;
+}
+.main-header li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+.main-header__nav li a{
+  transition: all 0.3s ease 0s;
+}
+.main-header__nav li a:hover{
+  display: inline;
+  color: #0088a9;
+}
+.info__main-div-title{
+  font-family: sans-serif;
+  font-size: 30px;
+  text-align: center;
+  padding: 40px;
+}
